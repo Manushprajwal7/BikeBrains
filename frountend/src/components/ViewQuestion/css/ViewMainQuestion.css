@@ -1,0 +1,264 @@
+.main {
+  margin-top: 80px;
+}
+/* ViewMainQuestion.css */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px; /* Adjust based on sidebar width */
+  margin-top: 70px; /* Adjust based on header height */
+  padding: 20px;
+  width: calc(100% - 250px); /* Adjust width based on sidebar width */
+}
+
+.main-container {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.main-question {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.main-description {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.info p {
+  margin: 0 10px;
+}
+
+.all-questions {
+  margin-bottom: 20px;
+}
+
+.all-questions-container {
+  display: flex;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.all-questions-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.all-options p {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.question-answer {
+  width: 100%;
+}
+
+.author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.author-details {
+  display: flex;
+  align-items: center;
+}
+
+.author-details p {
+  margin-left: 10px;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.comment {
+  margin-bottom: 10px;
+}
+
+.comments p {
+  cursor: pointer;
+  color: blue;
+}
+
+.title textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.main-answer {
+  margin-top: 20px;
+}
+
+.react-quill {
+  height: 200px;
+  margin-bottom: 20px;
+}
+/* ViewMainQuestion.css */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px; /* Adjust based on sidebar width */
+  margin-top: 60px; /* Adjust based on header height */
+  padding: 20px;
+  width: calc(100% - 250px); /* Adjust width based on sidebar width */
+  background-color: #f8f9fa; /* Background color to match the screenshot */
+}
+
+.main-container {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.main-question {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333; /* Darker color for better readability */
+}
+
+.main-description {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #666666; /* Light grey for metadata */
+}
+
+.info p {
+  margin: 0 10px;
+  font-size: 14px; /* Smaller font size for metadata */
+}
+
+.all-questions {
+  margin-bottom: 20px;
+}
+
+.all-questions-container {
+  display: flex;
+  padding: 20px 0;
+  border-top: 1px solid #e1e4e8;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.all-questions-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.all-options p {
+  margin: 5px 0;
+  cursor: pointer;
+  color: #007bff; /* Blue color for vote buttons */
+}
+
+.question-answer {
+  width: 100%;
+  font-size: 16px; /* Larger font size for question body */
+  color: #333333; /* Darker color for better readability */
+}
+
+.author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.author-details {
+  display: flex;
+  align-items: center;
+}
+
+.author-details p {
+  margin-left: 10px;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.comment {
+  margin-bottom: 10px;
+}
+
+.comments p {
+  cursor: pointer;
+  color: #007bff; /* Blue color for comment links */
+}
+
+.title textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  padding-top: 10px;
+  margin-top: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.main-answer {
+  margin-top: 20px;
+}
+
+.react-quill {
+  height: 200px;
+  margin-bottom: 20px;
+}

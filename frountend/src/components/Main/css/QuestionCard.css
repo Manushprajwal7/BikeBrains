@@ -1,0 +1,140 @@
+/* QuestionCard.css */
+.all-questions {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  border-left: 2px solid #0073e6;
+}
+
+.all-questions-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.all-questions-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.all-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.all-option {
+  text-align: center;
+}
+
+.question-answer {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.question-answer a {
+  text-decoration: none;
+  color: #0073e6;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.question-answer div {
+  margin-bottom: 10px;
+}
+
+.question-tag {
+  background-color: #e1ecf4;
+  color: #39739d;
+  padding: 5px 8px;
+  border-radius: 3px;
+  margin-right: 5px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.author-details {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.author-details p {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Media Queries */
+/* Tablet (medium screens) */
+@media (max-width: 992px) {
+  .all-questions-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .all-questions-left {
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+
+  .question-answer {
+    margin-right: 0;
+  }
+
+  .author {
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+}
+
+/* Mobile (small screens) */
+@media (max-width: 768px) {
+  .all-questions {
+    padding: 10px;
+  }
+
+  .all-questions-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .all-questions-left {
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .all-options {
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .question-answer a {
+    font-size: 16px;
+  }
+
+  .question-tag {
+    margin-right: 3px;
+    font-size: 11px;
+  }
+
+  .author {
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  .author-details p {
+    font-size: 12px;
+  }
+}

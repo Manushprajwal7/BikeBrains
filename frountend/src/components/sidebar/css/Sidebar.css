@@ -1,0 +1,88 @@
+/* Sidebar.css*/
+.sidebar {
+  width: 210px;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  background-color: #f8f9fa;
+  height: calc(100% - 70px);
+  overflow-y: auto;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  padding-top: 20px;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar-container {
+  padding: 10px;
+}
+
+.sidebar-options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar-option {
+  margin-bottom: 20px;
+}
+
+.sidebar-option a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sidebar-option p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.link {
+  margin-left: 10px;
+}
+
+.link-tag {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.link-tag .icon {
+  margin-right: 10px;
+  color: #555;
+}
+
+.tags {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tags p,
+.tags a {
+  color: #555;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+@media (max-width: 992px) {
+  .sidebar {
+    width: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    transform: translateX(-100%);
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+  }
+}

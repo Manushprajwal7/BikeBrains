@@ -1,0 +1,139 @@
+/* main.css */
+.root {
+  display: flex;
+  margin-top: 70px; /* Adjust based on header height */
+}
+
+.main {
+  flex: 1;
+  margin-left: 210px; /* Adjust based on sidebar width */
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ddd; /* Example border style */
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-button-ask-question {
+  background-color: #0a95ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main-button-ask-question:hover {
+  background-color: #007ace;
+}
+
+.main-dec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.main-filter {
+  display: flex;
+  align-items: center;
+}
+
+.main-tabs {
+  display: flex;
+  gap: 10px;
+}
+
+.main-tab a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.main-tab a:hover {
+  background-color: #f0f0f0;
+}
+
+.material-filter-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.material-filter-icon p {
+  margin-left: 5px;
+  color: #333;
+}
+
+.questions {
+  margin-top: 20px;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+/* Media Queries */
+/* Tablet (medium screens) */
+@media (max-width: 992px) {
+  .main {
+    margin-left: 180px; /* Adjust based on reduced sidebar width */
+    padding: 15px;
+  }
+
+  .main-container {
+    padding: 0 10px;
+  }
+}
+
+/* Mobile (small screens) */
+@media (max-width: 768px) {
+  .main {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .main-container {
+    padding: 0;
+  }
+
+  .main-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .main-button-ask-question {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .main-dec {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .main-filter {
+    margin-top: 10px;
+  }
+
+  .main-tabs {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .material-filter-icon {
+    margin-top: 10px;
+  }
+}
